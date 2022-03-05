@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body{
+    font-family: fantasy;
+    line-height: 1.7;
+    color : rgba(168, 71, 108, 0.877)
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width:480px){
+    main {
+		width: 100%;
+	}
+}
+
+
+/*header--------------------------------*/
+
+.logo{
+    width : 210px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav li{
+    margin-left: 36px;
+}
+
+.main-nav a{
+    color:rgb(168, 66, 143)
+}
+
+.main-nav a:hover{
+    color:rgb(236, 159, 226);
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin : 0 auto;
+    padding : 0.4%;
+}
+
+
+/*home-content--------------------------------*/
+
+.home-content{
+    text-align :center;
+    margin-top: 1%;
+}
+
+.home-content p{
+    font-size : 1.125rem;
+    margin : 10px 0 20px;
+}
+
+.page-title{
+    font-size : 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.sub{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button{
+    font-size: 1.375rem;
+    background : rgb(114, 67, 91);
+    color : rgb(255, 255, 255);
+    border-radius: 5px;
+    padding : 18px 32px;
+}
+
+.button:hover{
+    background :rgba(121, 52, 104, 0.637)
+}
+
+.big-bg{
+    background-size: cover;
+    background-position : center top;
+}
+
+#home{
+    background-image: url("bricks.jpg"),linear-gradient(#ffffff,#f7a8d3);
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+}
+
+#home.page-title{
+    text-transform: none;
+}
+
+
+
+
+#about{
+    background-image: url("marbleeeee.jpg");
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+#about .page-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+footer{
+    background : rgb(92, 78, 64);
+    text-align : center;
+    padding: 26px 0;
+}
+
+footer p{
+    color : #fff;
+    font-size : 0.875 rem;
+    font-family :'Courier New', Courier, monospace;
+}
+
+iframe{
+    size: 100px;
+}
+
+
+
+article{
+    width: 74%;
+}
+
+aside{
+    width: 22%;
+}
+
+.project-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.project-info{
+    position:relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+
+.project-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    font-weight :bolder;
+}
+
+.project-date{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight :normal;
+}
+
+.sub-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.yonepokoo{
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+
+
+
+
+#contact{
+    background-image: url("marbleeeee.jpg");
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+#contact .page-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+
+
+footer{
+    background : rgb(92, 78, 64);
+    text-align : center;
+    padding: 26px 0;
+}
+
+footer p{
+    color : #fff;
+    font-size : 0.875 rem;
+    font-family :'Courier New', Courier, monospace;
+}
+
+iframe{
+    size: 100px;
+}
+
+
+
+.contact .page-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+form div{
+    margin-bottom: 14px;
+}
+
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.twitter{
+    display: flex;
+    border-radius: 50%;
+    width: 20%;
+    margin-right: 1px;
+}
+.twitter:hover {
+    filter: invert(75%);
+}
+
+
+.youtube{
+    display: flex;
+    border-radius: 50%;
+    width: 20%;
+    margin-right: 1px;
+}
+.youtube:hover {
+    filter: invert(75%);
+}
+
+.scratch{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.scratch a{
+    color: rgba(105, 59, 94, 0.637);
+}
+.scratch a:hover{
+    color:rosybrown;
+}
