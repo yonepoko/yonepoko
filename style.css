@@ -5,7 +5,7 @@ html {
 }
 
 body{
-    font-family: fantasy;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.7;
     color : rgba(168, 71, 108, 0.877)
 }
